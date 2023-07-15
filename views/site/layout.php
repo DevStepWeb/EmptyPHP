@@ -15,9 +15,9 @@
   <header>
     <div class="container">
       <div class="menu_git">
-        <div class="logo">
+        <a href="/" class="logo">
           <img src="public/img/icon_top.svg" alt="git"> 
-        </div>
+        </a>
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
