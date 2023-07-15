@@ -37,8 +37,7 @@ gulp.task("minjs", minJS);
  
 function pluginJS() {
   return gulp
-    .src([ 
-      "libs/splide/splide.min.js",  
+    .src([  
       "libs/jquery/jquery.min.js",  
       "libs/axios/axios.min.js",  
       "libs/aos/aos.js",  
@@ -51,9 +50,7 @@ gulp.task("libsjs", pluginJS);
 
 function pluginCSS() {
   return gulp
-  .src([
-    'libs/splide/splide.min.css',
-    'libs/splide/splide-core.min.css',
+  .src([ 
     'libs/aos/aos.css',
  
   ])
