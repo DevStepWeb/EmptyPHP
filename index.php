@@ -27,3 +27,4 @@ $dispatcher->dispatch(function (array $params, array|Closure $action) use ($disp
  
     $controller->init($action[1], $params);
 });
+
