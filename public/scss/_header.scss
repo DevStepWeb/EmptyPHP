@@ -1,7 +1,7 @@
-header {
-  border-bottom: 1px solid $color-01;
+header { 
+  background-color: $color-01;
   .menu_git {
-    height: 90px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@ header {
         color: #fff;
       }
       img {
-        width: 180px;
+        width: 150px;
       }
     }
     nav {
@@ -44,8 +44,8 @@ header {
       align-items: center;
       background: $color-02;
       color: #fff;
-      padding: 8px 10px;
-      font-size: 23px;
+      padding: 7px 10px;
+      font-size: 22px;
       border-radius: 4px;
       transition: 0.2s all ease;
       cursor: pointer;
