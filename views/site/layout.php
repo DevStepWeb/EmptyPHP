@@ -12,30 +12,8 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="menu_git">
-        <a href="/" class="logo">
-          <img src="public/img/icon_top.svg" alt="git"> 
-        </a>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Repositories</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Groups</a></li>
-          </ul>
-        </nav>
-         <!-- Search -->
-         <div class="btnSearch">
-                <i class="ri-search-line"></i>
-            </div>
-      </div>
-    </div>
-  </header>
-  <?php echo $this->viewContent(); ?>
-
-
+ 
+  <?php echo $this->viewContent(); ?>   
   <script src="public/js/libs.js"></script>
   <script src="public/js/main.js"></script>
 </body>
